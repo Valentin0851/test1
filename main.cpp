@@ -552,20 +552,6 @@ int main(int args, char* argv[])
     cout.tie(0);
     setlocale(LC_ALL, "ru");
 
-    /*ofstream fout;
-    fout.open("C:\\Users\\hr5\\Desktop\\text.txt");
-    fout << "working with files\n";
-    fout.close();
-
-    char line[100];
-    ifstream fin;
-    fin.open("C:\\Users\\hr5\\Desktop\\text.txt");
-    fin.getline(line, 100);
-    fout.open("C:\\Users\\hr5\\Desktop\\text.txt", ios::app);
-    fout << line << endl;
-    fout.close();
-    fin.close();*/
-
     int n, m;
     int a[1000];
     cin >> n >> m;
